@@ -7,6 +7,7 @@ app.set("view engine", "ejs");
 
 const port = 3000;
 
+// assuming this is a database
 let employees = [
   { id: 1, name: "John Doe", role: "Software Engineer" },
   { id: 2, name: "Jane Doe", role: "Project Manager" },
